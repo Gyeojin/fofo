@@ -6,8 +6,16 @@
 .scrolltop .kakao {position: relative; width: 100%; height: 49%;cursor: pointer;}
 .scrolltop .kakao img {width: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
 
+.scrolltop_footer {width:60px; height: 120px; background: #fff; position: fixed; top: 80%; right: 3%; z-index: 1; border-radius: 30px; display: none; border: 1px solid #4e9372;}
+.scrolltop_footer .arrow {position: relative; width: 100%; height: 49%; cursor: pointer;}
+.scrolltop_footer .arrow i {position: absolute; font-size: 20px; color: #4e9372; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.scrolltop_footer .line {position: relative; width: 100%; height: 1%;}
+.scrolltop_footer .line span {position: absolute; width: 70%; height: 1px; background: #4e9372; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.scrolltop_footer .kakao {position: relative; width: 100%; height: 49%;cursor: pointer;}
+.scrolltop_footer .kakao img {width: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
 
-.title-text {font-size: 20px; width: 100%;color: #231815; margin-bottom: 10px; text-align: center;}
+
+.title-text {font-size: 20px; width: 100%;color: #231815; margin-bottom: 10px; text-align: center; padding-top: 50px;}
 .title-text h2 {padding-bottom: 20px;}
 
 .slide_section {padding:0;}
@@ -23,10 +31,15 @@ header .nav{width: 100%; position: absolute; top: 0; left: 0; display: flex; jus
 header .nav .logo {width: 10%; margin-left: 40px; padding-left: 10px; top: -12px;}
 header .nav .logo img {width: 100%;}
 
+.shop_header .nav{width: 100%; position: relative; top: 0; left: 0; display: flex; justify-content: space-between; align-items: center; padding: 50px 0; z-index: 10; transition: all 0.4s;}
+.sticky {position: fixed!important; background: rgba(255,255,255,0.7); padding: 30px 0!important; box-shadow: 0px 5px 12px -5px rgb(97 97 97 / 50%); transition: all 0.4s;}
+.shop_header .nav .logo {width: 10%; margin-left: 40px; padding-left: 10px; top: -12px;}
+.shop_header .nav .logo img {width: 100%;}
+
 header .main-nav {display: flex; justify-content: space-between; align-items: center; width: 40%; height: 100%; font-size: 18px; font-weight: 500;}
 header .main-nav .sub-nav {width: 100%; position: relative; text-align: center; padding: 20px 0;}
 header .main-nav .sub-nav:hover .each-sub-nav {display: block;}
-header .sub-nav .each-sub-nav {position: absolute; width: 110%; margin-top: 20px; font-size: 16px; font-weight: 400; left: 50%; transform: translateX(-50%); padding: 15px 0; background: rgba(255,255,255,0.7); border-radius: 8px; text-align: center; display: none;}
+header .sub-nav .each-sub-nav {position: absolute; width: 110%; margin-top: 20px; font-size: 16px; font-weight: 400; left: 50%; transform: translateX(-50%); padding: 15px 0; background: rgba(255,255,255,0.7); border-radius: 8px; text-align: center; display: none; box-shadow: 0px 0px 11px 5px rgba(219,219,219,0.48);}
 header .sub-nav .each-sub-nav li {padding: 5px 0;}
 header .sub-nav .each-sub-nav li a {width: 100%; display: inline-block;}
 
@@ -66,7 +79,7 @@ header .menu a .fa-sign-in {font-size: 24px;}
 
 /* Best Item Style Code */
 #best-item {background: #f6f6f6;}
-#best-item .title-text {padding-top: 50px;}
+#best-item .title-text {_padding-top: 50px;}
 .best-item-slide {max-width: 1280px; margin: auto; padding-top: 40px;}
 .middle-each-slide {width: 100%; height: 400px; position: relative;}
 .middle-each-slide img {margin: auto; position: absolute; left: 50%; transform: translateX(-50%)!important;}
@@ -76,15 +89,15 @@ header .menu a .fa-sign-in {font-size: 24px;}
 .middle-slide-text p {color: #999; font-weight: 300; padding: 8px 0;}
 .middle-slide-text span {display: block; font-size: 18px; font-weight: 700;}
 
+#review .title-text {_padding-top: 50px;}
 .rev-slide {width: 100%; max-width: 1040px; margin:auto;}
-.rev-slide .title-text {padding-top: 50px;}
 .rev-slide .slick-slide>div {padding: 0 5px;}
 .each-rev-slide {border: 1px solid #ccc;}
 .each-rev-img {width: 100%; height: 300px; overflow: hidden; position: relative;}
 .each-rev-img img {transform: translate(0)!important; width: 100%; height: auto!important; position: absolute;}
 .each-rev-text {padding: 10px;}
 .each-rev-text b {line-height: 160%;}
-.each-rev-text span{display: block;}
+.each-rev-text span{display: block; padding: 5px 0 0 0; font-size: 12px; color: #ccc; font-weight: 300;}
 .each-rev-product {display: flex; justify-content: space-between; align-items: center; padding: 10px; border-top: 1px solid #ccc;}
 .each-rev-product .product-img {width: 20%; height: 50px; overflow: hidden;}
 .each-rev-product .product-img img {width: 100%;}
@@ -93,7 +106,33 @@ header .menu a .fa-sign-in {font-size: 24px;}
 .each-rev-product .product-text span {padding-right: 5px;}
 .each-rev-product .product-text .fa {color:#ffd700; padding-right: 5px;}
 .each-rev-product .product-text .num {font-weight: 600;}
-.review .slick-dots {text-align: center;}
-.review li{display: inline-block; padding: 30px 15px 0 15px; text-align: center; font-size: 18px; font-weight: 600;}
-.review .slick-arrow {top: 100%!important; left: 40%; padding: 0!important; transform: translateY(-100%);}
-.review .slick-next {right: 40%; left: auto;}
+#review .slick-dots {text-align: center;}
+#review li{display: inline-block; padding: 30px 15px 0 15px; text-align: center; font-size: 18px; font-weight: 600;}
+#review .slick-arrow {top: 100%!important; left: 40%; padding: 0!important; transform: translateY(-100%);}
+#review .slick-next {right: 40%; left: auto;}
+
+#footer{width: 100%; height: 500px; background: #4e9372;}
+#footer .center{height:100%; position:relative;}
+#footer .page_inner{position:absolute; left:50%; top:50%; transform:translate(-50%, -50%); text-align:center; width:100%;}
+#footer .page_logo{background:url(/fofo/img/fofo_logo_green.png) no-repeat center center; background-size:contain; height:70px; margin:auto; margin-bottom: 20px;}
+#footer .footer_btn{padding: 20px 0; width: 100%;}
+#footer .footer_btn li{display:inline-block; background: #fff; color: #4e9372; padding: 15px; border: 1px solid #4e9372; border-radius: 30px; box-shadow:  3px 3px 0px 1px rgba(78,147,114,1); transition: all; font-weight: 600; font-size: 16px; width: 18%;}
+#footer .footer_btn li>a{display:block; width:100%; color:#4e9372;}
+#footer .footer_btn li:hover{background: #4e9372; color: #fff; border: 1px solid #fff;}
+#footer .footer_btn li:hover a{color:#fff;}
+#footer .footer_txt {width: 100%; display: flex; justify-content: center; align-items: center; padding: 20px 0;}
+#footer .footer_txt .notice {width: 40%; border-right: 1px solid #fff;}
+#footer .footer_txt .bank {width: 40%;}
+#footer .footer_txt p{font-size:16px; font-weight: 300; line-height:35px; color:#fff;}
+
+#shop_list_all {width: 100%; height: auto;}
+#shop_list_all .category {width: 100%; padding: 15px 0 0 0; border-bottom: 1px solid #ccc;}
+#shop_list_all .category button {padding: 15px; font-size: 16px; font-weight: 500;}
+#shop_list_all .list_top {width: 100%; display: flex; justify-content: space-between; align-items: center;}
+#shop_list_all .list_top .all-pro {padding: 15px; _width: 50%;}
+#shop_list_all .list_top .pro-sort {_width: 50%;}
+#shop_list_all .list_top .pro-sort li{width: 100%; position: relative;}
+#shop_list_all .list_top .pro-sort>li>a{padding: 15px; display: block;}
+.list_top .pro-sort .pro-sort-sub {position: absolute;  width: 100%; text-align: center; top: 100%; left: 50%; transform: translateX(-50%);}
+.list_top .pro-sort .pro-sort-sub>li {padding: 5px 0;}
+

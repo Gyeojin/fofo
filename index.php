@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
   <title>FoFo!</title>
 
   <!-- Google Font Style Conde -->
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600&display=swap"
+    rel="stylesheet">
 
   <!-- Font Awesome Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,8 +19,9 @@
   <!-- RESET, MAIN Style CSS code -->
   <link rel="stylesheet" href="/fofo/css/reset.css">
   <link rel="stylesheet" href="/fofo/css/main.css">
-  <link rel="stylesheet" type="text/css" href="/fofo/css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="/fofo/css/slick.css" />
 </head>
+
 <body>
   <div class="wrap">
     <div class="scrolltop">
@@ -24,12 +29,18 @@
       <div class="line"><span></span></div>
       <div class="kakao"><img src="/fofo/img/kakao.png" alt=""></div>
     </div>
+    <div class="scrolltop_footer">
+      <div class="arrow"><i class="fa fa-arrow-up"></i></div>
+      <div class="line"><span></span></div>
+      <div class="kakao"><img src="/fofo/img/kakao_green.png" alt=""></div>
+    </div>
     <section class="slide_section">
       <div class="slide">
         <div class="each_slidebox"><img src="/fofo/img/slide_01.jpg" alt=""></div>
         <div class="each_slidebox"><img src="/fofo/img/slide_02.jpg" alt=""></div>
       </div>
     </section>
+
     <header>
       <div class="nav">
         <a href="#" class="logo">
@@ -44,9 +55,9 @@
             </ul>
           </li>
           <li class="sub-nav">
-            <a href="#">SHOP</a>
+            <a href="/fofo/pages/shop_list.php">SHOP</a>
             <ul class="each-sub-nav">
-              <li><a href="#">전체</a></li>
+              <li><a href="/fofo/pages/shop_list.php">전체</a></li>
               <li><a href="#">베스트</a></li>
               <li><a href="#">반려동물 털 장난감</a></li>
               <li><a href="#">메모리얼</a></li>
@@ -76,6 +87,7 @@
         </div>
       </div>
     </header>
+
     <section id="about">
       <div class="center">
         <div class="title-text">
@@ -198,7 +210,7 @@
       </div>
     </section>
 
-    <section class="review">
+    <section id="review">
       <div class="title-text">
         <h2>REVIEW</h2>
       </div>
@@ -219,7 +231,7 @@
               <b>상품명</b>
               <span>리뷰 <span class="num">10</span></span>
               <span><i class="fa fa-star"></i><span class="num">5.0</span></span>
-            </div> 
+            </div>
           </div>
         </div>
         <!-- End of reviewbox -->
@@ -239,7 +251,7 @@
               <b>상품명</b>
               <span>리뷰 <span class="num">10</span></span>
               <span><i class="fa fa-star"></i><span class="num">5.0</span></span>
-            </div> 
+            </div>
           </div>
         </div>
         <!-- End of reviewbox -->
@@ -259,7 +271,7 @@
               <b>상품명</b>
               <span>리뷰 <span class="num">10</span></span>
               <span><i class="fa fa-star"></i><span class="num">5.0</span></span>
-            </div> 
+            </div>
           </div>
         </div>
         <!-- End of reviewbox -->
@@ -279,7 +291,7 @@
               <b>상품명</b>
               <span>리뷰 <span class="num">10</span></span>
               <span><i class="fa fa-star"></i><span class="num">5.0</span></span>
-            </div> 
+            </div>
           </div>
         </div>
         <!-- End of reviewbox -->
@@ -297,9 +309,9 @@
             </div>
             <div class="product-text">
               <b>상품명</b>
-              <span>리뷰</span>
-              <span>별점</span>
-            </div> 
+              <span>리뷰 <span class="num">10</span></span>
+              <span><i class="fa fa-star"></i><span class="num">5.0</span></span>
+            </div>
           </div>
         </div>
         <!-- End of reviewbox -->
@@ -317,9 +329,9 @@
             </div>
             <div class="product-text">
               <b>상품명</b>
-              <span>리뷰</span>
-              <span>별점</span>
-            </div> 
+              <span>리뷰 <span class="num">10</span></span>
+              <span><i class="fa fa-star"></i><span class="num">5.0</span></span>
+            </div>
           </div>
         </div>
         <!-- End of reviewbox -->
@@ -337,9 +349,9 @@
             </div>
             <div class="product-text">
               <b>상품명</b>
-              <span>리뷰</span>
-              <span>별점</span>
-            </div> 
+              <span>리뷰 <span class="num">10</span></span>
+              <span><i class="fa fa-star"></i><span class="num">5.0</span></span>
+            </div>
           </div>
         </div>
         <!-- End of reviewbox -->
@@ -359,15 +371,17 @@
               <b>상품명</b>
               <span>리뷰 <span class="num">10</span></span>
               <span><i class="fa fa-star"></i><span class="num">5.0</span></span>
-            </div> 
+            </div>
           </div>
         </div>
         <!-- End of reviewbox -->
-
       </div>
     </section>
+    <?php
+      include $_SERVER['DOCUMENT_ROOT']."/fofo/include/footer.php";
+    ?>
   </div>
-  
+
 
 
   <!-- Main JS link -->
@@ -376,81 +390,80 @@
   <script src="/fofo/js/slick.js"></script>
   <script src="/fofo/js/main.js"></script>
   <script type="text/javascript">
-    $(document).ready(function(){
-      $('.slide').slick({
-        fade : true,
-        dots : true,
-        infinite : true,
-        autoplay : false,
-        autoplaySpeed : 5000
-      });
-
-      $('.best-item-slide').slick({
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
-      });
-      $('.rev-slide').slick({
-        dots:true,
-        infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ],
-        customPaging : function(slider, index) { 
-          var num = index + 1;
-          return '<span class="dot">'+ num +'</span>';
-        }
-      });
+  $(document).ready(function() {
+    $('.slide').slick({
+      fade: true,
+      dots: true,
+      infinite: true,
+      autoplay: false,
+      autoplaySpeed: 5000
     });
+
+    $('.best-item-slide').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      responsive: [{
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+    $('.rev-slide').slick({
+      dots: true,
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      responsive: [{
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ],
+      customPaging: function(slider, index) {
+        var num = index + 1;
+        return '<span class="dot">' + num + '</span>';
+      }
+    });
+  });
   </script>
 </body>
+
 </html>
