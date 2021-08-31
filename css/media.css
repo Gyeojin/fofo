@@ -1,0 +1,27 @@
+@media screen and (max-width: 900px) {
+  header .main-nav {font-size: 16px; width: 50%;}
+  header .sub-nav .each-sub-nav{width: 200%;}
+  .slick-slide img {transform:translateX(-32%);}
+  #about .each-conbox .con-txt h2 {font-size: 26px;}
+  #about .each-conbox p {font-size: 16px;}
+  .middle-each-slide {height: 250px;}
+  .best-item-slide .slick-dots {display: none;}
+}
+
+@media screen and (max-width: 500px) {
+  .slick-slide img {transform: translateX(-37%);}
+  header .nav .logo {width: 20%;}
+  header .main-nav {display: none;}
+  header .menu {width: 20%; margin-right: 30px;}
+  #about .title-text img {width: 25%;}
+  #about .each-conbox {display: block;}
+  #about .each-conbox .con-img {width: 70%; margin: auto;}
+  #about .each-conbox .con-txt {max-width: 400px; margin: auto; text-align: center;}
+  #about .each-conbox:nth-child(2) .con-txt {text-align: center;}
+  #about .each-conbox p {font-size: 14px; line-height: 150%;}
+  #review .slick-prev{left: 25%;}
+  #review .slick-next {right: 25%;}
+  #footer .footer_btn li {padding: 15px 5px; font-size: 14px; width: 20%;}
+  #footer .footer_txt .notice {width: 45%;}
+  #footer .footer_txt p {font-size: 14px; line-height: 150%;}
+}

@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="/fofo/css/reset.css">
   <link rel="stylesheet" href="/fofo/css/main.css">
   <link rel="stylesheet" type="text/css" href="/fofo/css/slick.css" />
+  <link rel="stylesheet" href="/fofo/css/media.css">
 </head>
 
 <body>

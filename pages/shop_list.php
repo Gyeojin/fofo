@@ -56,7 +56,10 @@
           </div>
           <ul class="pro-sort">
             <li>
-              <a href="#">상품 정렬<i></i></a>
+              <div class="sort-tit">
+                <a href="#">상품 정렬</a>
+                <img src="/fofo/img/arrow_down.png" alt="">
+              </div>
               <ul class="pro-sort-sub">
                 <li><a href="#">낮은 가격</a></li>
                 <li><a href="#">높은 가격</a></li>
@@ -72,11 +75,51 @@
               <img src="/fofo/img/review_01.jpg" alt="">
             </div>
             <div class="each-shop-text">
-              <b>리뷰요약!! 리뷰요약이에요!! 최대 두줄까지 왼쪽정렬 !!</b>
-              <span>리뷰회원 ID ***</span>
+              <b>상품명 상품명</b>
+              <p>상품 요약설명 입니다. 자유롭게 적어주세요.</p>
+              <span>00,000원</span>
             </div>
           </div>
-          <!-- End of reviewbox -->
+          <!-- End of each-shop-box -->
+          <div class="each-shop_list">
+            <div class="each-shop-img">
+              <img src="/fofo/img/review_01.jpg" alt="">
+            </div>
+            <div class="each-shop-text">
+              <b>상품명 상품명</b>
+              <p>상품 요약설명 입니다. 자유롭게 적어주세요.</p>
+              <span>00,000원</span>
+            </div>
+          </div>
+          <!-- End of each-shop-box -->
+          <div class="each-shop_list">
+            <div class="each-shop-img">
+              <img src="/fofo/img/review_01.jpg" alt="">
+            </div>
+            <div class="each-shop-text">
+              <b>상품명 상품명</b>
+              <p>상품 요약설명 입니다. 자유롭게 적어주세요.</p>
+              <span>00,000원</span>
+            </div>
+          </div>
+          <!-- End of each-shop-box -->
+          <div class="each-shop_list">
+            <div class="each-shop-img">
+              <img src="/fofo/img/review_01.jpg" alt="">
+            </div>
+            <div class="each-shop-text">
+              <b>상품명 상품명</b>
+              <p>상품 요약설명 입니다. 자유롭게 적어주세요.</p>
+              <span>00,000원</span>
+            </div>
+          </div>
+          <!-- End of each-shop-box -->
+        </div>
+        <div class="pagenum">
+          <a href="#"><img src="/fofo/img/arrow_left.jpg" alt=""></a>
+          <b>1</b>
+          <b>2</b>
+          <a href="#"><img src="/fofo/img/arrow_right.jpg" alt=""></a>
         </div>
       </div>
     </section>

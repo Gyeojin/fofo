@@ -128,11 +128,24 @@ header .menu a .fa-sign-in {font-size: 24px;}
 #shop_list_all {width: 100%; height: auto;}
 #shop_list_all .category {width: 100%; padding: 15px 0 0 0; border-bottom: 1px solid #ccc;}
 #shop_list_all .category button {padding: 15px; font-size: 16px; font-weight: 500;}
+#shop_list_all .category button:nth-child(1) {font-weight: 700;}
 #shop_list_all .list_top {width: 100%; display: flex; justify-content: space-between; align-items: center;}
 #shop_list_all .list_top .all-pro {padding: 15px; _width: 50%;}
 #shop_list_all .list_top .pro-sort {_width: 50%;}
 #shop_list_all .list_top .pro-sort li{width: 100%; position: relative;}
 #shop_list_all .list_top .pro-sort>li>a{padding: 15px; display: block;}
-.list_top .pro-sort .pro-sort-sub {position: absolute;  width: 100%; text-align: center; top: 100%; left: 50%; transform: translateX(-50%);}
+.pro-sort .sort-tit {display: flex; align-items: center;}
+.list_top .pro-sort .pro-sort-sub {z-index: 1; position: absolute;  width: 130%; text-align: center; top: 100%; left: 50%; transform: translateX(-50%);background: #fff; border: 1px solid #f1f1f1; margin-top: 5px;}
 .list_top .pro-sort .pro-sort-sub>li {padding: 5px 0;}
+
+
+.shop_list {width: 100%; display: flex;}
+.shop_list .each-shop_list {padding: 20px 5px; width: 25%;}
+.each-shop-img {width: 100%; height: 300px; overflow: hidden; position: relative;}
+.each-shop-img img {transform: translate(0)!important; width: 100%; height: auto!important; position: absolute;}
+.each-shop-text {padding: 10px 0;}
+.each-shop-text b {line-height: 160%;}
+.each-shop-text p{display: block; padding: 5px 0 0 0; font-size: 12px; color: #ccc; font-weight: 300;}
+.each-shop-text span {font-size: 18px; font-weight: 500; padding: 10px 0; display: block;}
+.pagenum {width: 20%; display: flex; align-items: center; justify-content: space-between; margin: auto; padding: 20px 0 0 0;}
 
