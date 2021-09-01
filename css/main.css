@@ -135,7 +135,8 @@ header .menu a .fa-sign-in {font-size: 24px;}
 #shop_list_all .list_top .pro-sort li{width: 100%; position: relative;}
 #shop_list_all .list_top .pro-sort>li>a{padding: 15px; display: block;}
 .pro-sort .sort-tit {display: flex; align-items: center;}
-.list_top .pro-sort .pro-sort-sub {z-index: 1; position: absolute;  width: 130%; text-align: center; top: 100%; left: 50%; transform: translateX(-50%);background: #fff; border: 1px solid #f1f1f1; margin-top: 5px;}
+.pro-sort .sort-tit a {transition: all 0.4s;}
+.list_top .pro-sort .pro-sort-sub {z-index: 1; position: absolute;  width: 130%; text-align: center; top: 100%; left: 50%; transform: translateX(-50%);background: #fff; border: 1px solid #f1f1f1; margin-top: 5px; display: none; transition: all 0.4s;}
 .list_top .pro-sort .pro-sort-sub>li {padding: 5px 0;}
 
 
@@ -144,8 +145,51 @@ header .menu a .fa-sign-in {font-size: 24px;}
 .each-shop-img {width: 100%; height: 300px; overflow: hidden; position: relative;}
 .each-shop-img img {transform: translate(0)!important; width: 100%; height: auto!important; position: absolute;}
 .each-shop-text {padding: 10px 0;}
-.each-shop-text b {line-height: 160%;}
-.each-shop-text p{display: block; padding: 5px 0 0 0; font-size: 12px; color: #ccc; font-weight: 300;}
+.each-shop-text b {line-height: 160%; font-size: 16px;}
+.each-shop-text p{display: block; padding: 5px 0 0 0; font-size: 14px; color: #ccc; font-weight: 300;}
 .each-shop-text span {font-size: 18px; font-weight: 500; padding: 10px 0; display: block;}
 .pagenum {width: 20%; display: flex; align-items: center; justify-content: space-between; margin: auto; padding: 20px 0 0 0;}
 
+/* Detail Page Style Code */
+
+/* Detail Page Style Code */
+
+#shop_detail_all {width: 100%; display: flex; align-items: center; justify-content: space-between; top: 200px;}
+#shop_detail_all .shop_detail_top {display: flex;}
+#shop_detail_all .product-image {width: 40%; margin-left: 50px;}
+#shop_detail_all .product-image img{width: 100%; border: 1px solid #efefef;}
+#shop_detail_all .product-txt {width: 50%; margin: 0 80px;}
+#shop_detail_all .product-txt h2 {font-size: 20px; color: #555; font-weight: 400;}
+#shop_detail_all .product-txt h4 {font-size: 14px; color: #555; opacity: 0.7; font-weight: 300; padding: 10px 0 15px 0; border-bottom: 2px solid #ccc;}
+#shop_detail_all .product-txt .price {font-size: 17px; font-weight: 400; padding: 20px 0 40px 0;}
+#shop_detail_all .product-txt .choice-box {width: 100%;}
+#shop_detail_all .product-txt .qua-text {width: 100%; height: auto; display: flex; align-items: center;}
+#shop_detail_all .product-txt .qua-text img {width: 14px; height: 14px;}
+#shop_detail_all .product-txt .qua-text p {font-size: 11px; color: #f76560; padding: 0 0 0 5px;}
+#shop_detail_all .product-txt .choice-box .checkbox {width: 95%; background: #f9f9f9; margin: 30px auto; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center;}
+#shop_detail_all .product-txt .quantity {width: 40%;}
+#shop_detail_all .product-txt .quantity form {display: flex; align-items: center;}
+#shop_detail_all .product-txt .quantity form input {width: 30px; height: 25px;}
+#shop_detail_all .product-txt .quantity form .price-txt {font-size: 12px; padding-left: 50px;}
+#shop_detail_all .product-txt .total-price {text-align: right}
+#shop_detail_all .product-txt .total-price span {font-weight: 300;}
+#shop_detail_all .total-price .total-price-detail{padding-left: 5px;}
+#shop_detail_all .total-price .total-price-detail strong{font-size: 21px; font-weight: 500;}
+#shop_detail_all .product-txt .total-btns {width: 100%; display: flex; justify-content: space-between; padding: 20px 0;}
+#shop_detail_all .product-txt .total-btns button {width: 33%; font-size: 13px; padding: 15px 0; background: #fff; border: 1px solid #d1d1d1; border-radius: 3px; font-weight: 600;}
+#shop_detail_all .product-txt .total-btns button:hover {border: 1px solid #333;}
+#shop_detail_all .product-txt .total-btns
+button:nth-child(1) {background: #333; color: #fff;}
+
+#review {border-bottom: 1px solid #ccc;}
+.padding {padding: 80px 0;}
+.shop-each-rev-text {padding: 10px;}
+.shop-each-rev-text b {line-height: 160%;}
+.shop-each-rev-text .shop-rev-id{display: block; padding: 5px 0 0 0; font-size: 12px; color: #ccc; font-weight: 300;}
+.shop-each-rev-text .star {padding-top: 10px;}
+.shop-each-rev-text .shop-rev-tit {padding-right: 5px;}
+.shop-each-rev-text .num {font-weight: 600;}
+.shop-each-rev-text .shop-rev-other .fa {color:#ffd700; padding-right: 5px;}
+
+.detail-page {border-bottom: 1px solid #ccc;}
+.detail-page img {margin: auto;}

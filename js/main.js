@@ -28,3 +28,16 @@ function stickyNav() {
   }
 }
 window.addEventListener("scroll", stickyNav);
+
+$(function () {
+  $(".sort-tit img").click(function () {
+    $(".sort-tit img").toggleClass("on");
+    if ($(this).hasClass("on")) {
+      $(this).css({ transform: "rotate(" + 180 + "deg)" });
+      $(".pro-sort-sub").css("display", "block");
+    } else {
+      $(this).css({ transform: "rotate(" + 0 + "deg)" });
+      $(".pro-sort-sub").css("display", "none");
+    }
+  });
+});
