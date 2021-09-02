@@ -87,10 +87,14 @@
           <!-- End of each-shop-box -->
           <div class="each-shop_list">
             <div class="each-shop-img">
-              <img src="/fofo/img/review_01.jpg" alt="">
+              <a href="/fofo/pages/shop_detail.php">
+                <img src="/fofo/img/review_01.jpg" alt="">
+              </a>
             </div>
             <div class="each-shop-text">
-              <b>상품명 상품명</b>
+              <a href="/fofo/pages/shop_detail.php">
+                <b>상품명 상품명</b>
+              </a>
               <p>상품 요약설명 입니다. 자유롭게 적어주세요.</p>
               <span>00,000원</span>
             </div>
@@ -98,10 +102,14 @@
           <!-- End of each-shop-box -->
           <div class="each-shop_list">
             <div class="each-shop-img">
-              <img src="/fofo/img/review_01.jpg" alt="">
+              <a href="/fofo/pages/shop_detail.php">
+                <img src="/fofo/img/review_01.jpg" alt="">
+              </a>
             </div>
             <div class="each-shop-text">
-              <b>상품명 상품명</b>
+              <a href="/fofo/pages/shop_detail.php">
+                <b>상품명 상품명</b>
+              </a>
               <p>상품 요약설명 입니다. 자유롭게 적어주세요.</p>
               <span>00,000원</span>
             </div>
@@ -109,10 +117,14 @@
           <!-- End of each-shop-box -->
           <div class="each-shop_list">
             <div class="each-shop-img">
-              <img src="/fofo/img/review_01.jpg" alt="">
+              <a href="/fofo/pages/shop_detail.php">
+                <img src="/fofo/img/review_01.jpg" alt="">
+              </a>
             </div>
             <div class="each-shop-text">
-              <b>상품명 상품명</b>
+              <a href="/fofo/pages/shop_detail.php">
+                <b>상품명 상품명</b>
+              </a>
               <p>상품 요약설명 입니다. 자유롭게 적어주세요.</p>
               <span>00,000원</span>
             </div>

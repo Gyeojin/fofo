@@ -41,3 +41,28 @@ $(function () {
     }
   });
 });
+
+//Modal Code
+// const openModal = document.querySelector("#reviewModal");
+// const modalImg = document.querySelectorAll(".each-rev-img");
+
+// for (let i = 0; i < modalImg.length; i++) {
+//   modalImg[i].onclick = function () {
+//     openModal.style.display = "block";
+//     window.onclick = function (event) {
+//       if (event.target == modalImg[i]) {
+//         openModal.style.display = "none";
+//       }
+//     };
+//   };
+// }
+
+//Modal Code
+$(function () {
+  $(".each-rev-img").click(function () {
+    $("#reviewModal").show();
+  });
+  $("#reviewModal").click(function () {
+    $("#reviewModal").hide();
+  });
+});

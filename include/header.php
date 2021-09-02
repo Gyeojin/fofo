@@ -23,9 +23,9 @@
         </ul>
       </li>
       <li class="sub-nav">
-        <a href="#">REVIEW</a>
+        <a href="/fofo/pages/review.php">REVIEW</a>
         <ul class="each-sub-nav">
-          <li><a href="#">구매 후기</a></li>
+          <li><a href="/fofo/pages/review.php">구매 후기</a></li>
         </ul>
       </li>
       <li class="sub-nav">
