@@ -5,7 +5,9 @@
 
 <br>
 
-![schedule_01](https://user-images.githubusercontent.com/84562763/134463380-0add6ce4-a1fa-4069-b86f-a17b8a411779.jpg)
+![pf-content_fofo](https://user-images.githubusercontent.com/84562763/134626341-a407aa39-5201-43fc-a953-6916a6478eb7.jpg)
+![pf-content_fofo1](https://user-images.githubusercontent.com/84562763/134626347-46fc0f15-8552-42de-914a-f4bcbaa612d5.jpg)
+![pf-content_fofo2](https://user-images.githubusercontent.com/84562763/134626349-0878fac6-3c0f-4132-b0e6-0aecddc34e4d.jpg)
 
 버려지는 반려동물의 털을 모아 반려동물 완구를 제작하는 가상의 회사인 'FoFo!' 를 설립하여,   
 전체적인 기획과 홈페이지 프로토타입까지 제작한 프로젝트 입니다.
@@ -19,7 +21,9 @@ http://gyeoj93.dothome.co.kr/fofo/<br>
 <br>
 
 ## 기획서
+[FoFo! - 최종 (210805).pdf](https://github.com/Gyeojin/fofo/files/7223160/FoFo.-.210805.pdf)
 
+<br>
 
 ## 주요 특징
 * 메인페이지 / 상품 리스트 / 상품 상세페이지 / 리뷰 페이지 작업   
