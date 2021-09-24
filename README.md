@@ -21,7 +21,7 @@ http://gyeoj93.dothome.co.kr/fofo/<br>
 <br>
 
 ## 기획서
-https://docs.google.com/presentation/d/1YOgcJzL9uE5AKFdDinOMYUg0SmbcURCDj9a6BwtC8as/edit?usp=sharing
+https://drive.google.com/file/d/1hSRQ1XSQa_OLW3UmtimhingEeT7TBwJL/view?usp=sharing
 
 <br>
 
