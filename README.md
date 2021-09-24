@@ -21,7 +21,7 @@ http://gyeoj93.dothome.co.kr/fofo/<br>
 <br>
 
 ## 기획서
-[FoFo! - 최종 (210805).pdf](https://github.com/Gyeojin/fofo/files/7223160/FoFo.-.210805.pdf)
+https://docs.google.com/presentation/d/1YOgcJzL9uE5AKFdDinOMYUg0SmbcURCDj9a6BwtC8as/edit?usp=sharing
 
 <br>
 
