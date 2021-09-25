@@ -9,11 +9,20 @@
 ![pf-content_fofo1](https://user-images.githubusercontent.com/84562763/134626347-46fc0f15-8552-42de-914a-f4bcbaa612d5.jpg)
 ![pf-content_fofo2](https://user-images.githubusercontent.com/84562763/134626349-0878fac6-3c0f-4132-b0e6-0aecddc34e4d.jpg)
 
-버려지는 반려동물의 털을 모아 반려동물 완구를 제작하는 가상의 회사인 'FoFo!' 를 설립하여,   
+<p align="center">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a> &nbsp
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/></a> &nbsp
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/></a> &nbsp
+<img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white"/></a>&nbsp
+
+<br>
+<br>
+<p align="center">버려지는 반려동물의 털을 모아 반려동물 완구를 제작하는 가상의 회사인 'FoFo!' 를 설립하여,<br> 
 전체적인 기획과 홈페이지 프로토타입까지 제작한 프로젝트 입니다.
 <br>
 <br>
 <br>
+
 ## 사이트
 http://gyeoj93.dothome.co.kr/fofo/<br>
 <br>
